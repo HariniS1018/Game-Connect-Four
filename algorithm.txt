@@ -1,0 +1,26 @@
+# Algorithm for the program
+
+STEP 1:  Start the program.
+STEP 2:  Import pygame, numpy, sys and math libraries.
+STEP 3:  Initialize the pygame library.
+STEP 4:  Selecting the font of the game and store it in varibale.
+STEP 5:  Declare the colour of the board, background, coins of both player.
+STEP 6:  Declare number of rows and columns in the board.
+STEP 7:  Define the function for creating the board and declare the initial state of the board as zeros.
+STEP 8:  Define the function to drop piece on the players' desired position.
+STEP 9:  Define the function to check if the top row of that particular column is zero else the column is filled and the player should select a different position. This is invalid location.
+STEP 10: Define the function to check if the particular position in that row is empty or not. If the position is empty, return the position.
+STEP 11: Define the function to flip the board to consider the position of index[0][0] as the last row and first column and position from down to up.
+STEP 12: Define the function to find whether the current position of the coin made the player win.
+STEP 13: In this function, find the consecutive 3 positions are filled by the same players' coin vertically, horizontally or diagonally.
+STEP 14: Define the function to make a player 1 coin and player 2 coin to drop at the desired function.
+STEP 15: create and display the board using the function defined in step 11.
+STEP 16: Initialize a variable as false means the player not having 4 in a row.
+STEP 17: Initialize the turn as 0 and square size of each cell as 100.
+STEP 18: Initialize the width, height, size and radius of the coin and call the drawback function with board and update the board.
+STEP 19: While the game is not over, repeat the step 21-25.
+STEP 20: If the turn is 0 and call the function defined in step 7-12 to make the player 1's one move and find whether this move make the player win. 
+STEP 21: Repeat the same previous step when the turn is 1 for player 2.
+STEP 22: Repeat the step 21 & 22 till the game is over or 4 same coins.
+STEP 23: Increment the turn variable and find whether odd or even so that even makes the player 1 move and odd makes the player 2 move.
+STEP 24: End the program.
